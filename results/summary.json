@@ -1,0 +1,15 @@
+{
+  "ppo": {
+    "reward_mean": 50.97122304386839,
+    "knowledge_mean": 0.2690842431443087,
+    "mastered_mean": 1.7
+  },
+  "heuristic": {
+    "reward_mean": 32.18553302103753,
+    "knowledge_mean": 0.11561190086840441
+  },
+  "random": {
+    "reward_mean": 23.499583709230116,
+    "knowledge_mean": 0.10559110835069832
+  }
+}

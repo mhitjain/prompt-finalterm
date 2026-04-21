@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+results/ppo_checkpoints/
+*.pt
+demo_cache.json
+.DS_Store

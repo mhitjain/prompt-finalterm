@@ -1,0 +1,22 @@
+DEWEY SESSION TRANSCRIPT — Ada
+============================================================
+
+Step 1 | REVIEW_PREVIOUS on 'Basic Arithmetic'
+  → Apply what you know: how does calculus connect to what we covered earlier? Give me a concrete example.
+  [knowledge=0.013  engagement=0.83  reward=+0.24]
+
+Step 2 | REVIEW_PREVIOUS on 'Basic Arithmetic'
+  → Apply what you know: how does calculus connect to what we covered earlier? Give me a concrete example.
+  [knowledge=0.013  engagement=0.84  reward=+0.24]
+
+Step 3 | GIVE_HINT on 'Basic Arithmetic'
+  → Here's one at your level: given a standard calculus problem, walk me through your approach step by step.
+  [knowledge=0.021  engagement=0.84  reward=+0.69]
+
+Step 4 | SHOW_EXAMPLE on 'Basic Arithmetic'
+  → Worked example: let's take a typical calculus problem and break it apart piece by piece so the pattern becomes clear.
+  [knowledge=0.036  engagement=0.86  reward=+1.15]
+
+Step 5 | SHOW_EXAMPLE on 'Basic Arithmetic'
+  → Concrete example for calculus: Step 1 — identify what's given. Step 2 — choose the right technique. Step 3 — apply it carefully. Step 4 — verify the answer makes sense.
+  [knowledge=0.051  engagement=0.87  reward=+1.15]

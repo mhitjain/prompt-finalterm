@@ -1,0 +1,36 @@
+environment:
+  n_topics: 10
+  max_steps_per_episode: 50
+  n_student_profiles: 4
+  knowledge_threshold: 0.85   # topic mastery threshold
+  seed: 42
+
+ppo:
+  lr: 3.0e-4
+  gamma: 0.99
+  lambda_gae: 0.95
+  clip_epsilon: 0.2
+  epochs: 4
+  batch_size: 64
+  value_coef: 0.5
+  entropy_coef: 0.01
+  hidden_dim: 256
+  max_grad_norm: 0.5
+  update_interval: 2048
+
+bandits:
+  alpha: 1.0              # Thompson Sampling exploration parameter
+  n_content_arms: 5       # content presentation styles
+  n_assessment_arms: 3    # question difficulty levels
+  context_dim: 14         # student context features fed to bandit
+
+training:
+  total_timesteps: 300000
+  eval_interval: 5000
+  n_eval_episodes: 30
+  save_interval: 25000
+  n_seeds: 3
+
+logging:
+  log_dir: results/
+  verbose: true
